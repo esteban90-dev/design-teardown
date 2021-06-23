@@ -41,20 +41,34 @@
       </nav>
     </header>
 
-    <main>
-      main 1
-      <article>
-        main article
-      </article>
-      <article>
-        2nd article
-      </article>
-      <article>
-        3rd article
-      </article>
-      <aside>
-        email newsletter
-      </aside>
+    <main class="container">
+      <section class="flex-row">
+        <div class="flex-col-60">
+          <article>
+            <div class="flex-row align-items-start">
+              <div class="square-lg bg-4 mr-30"></div>
+              <h1 class="title-lg bg-5"></h1>
+            </div>
+            <p class="content bg-1"></p>
+          </article>
+          <article class="flex-row mt-50">
+            <div class="square-md bg-4 mr-30"></div>
+            <h2 class="title-md bg-5"></h2>
+          </article>
+          <article class="flex-row mt-50">
+            <div class="square-md bg-4 mr-30"></div>
+            <h2 class="title-md bg-5"></h2>
+          </article>
+        </div>
+
+        <div class="gutter"></div>
+        
+        <aside class="flex-col-40 align-items-center">
+          <div class="square-lg bg-4 front"></div> 
+          <div class="box-lg bg-2 offset-65 back"></div>
+        </aside>
+      </section>
+      
       <aside>
         guide 1
       </aside>
