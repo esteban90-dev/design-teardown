@@ -1,0 +1,64 @@
+/*---------------------GENERAL--------------------*/
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+/*---------------------Layout---------------------*/
+.nav-top {
+  height: 110px;
+}
+
+.nav-bottom {
+  height: 65px;
+}
+
+.logo {
+  height: 80px;
+  width: 100px;
+}
+
+.nav-item {
+  height: 50px;
+  width: 100px;
+}
+
+.nav-search {
+  height: 50px;
+  width: 250px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+
+/*--------------------UTILITIES-------------------*/
+.bg-5 {
+  background-color: rgb(40, 40, 40);
+}
+
+.bg-4 {
+  background-color: rgb(80, 80, 80);
+}
+
+.bg-3 {
+  background-color: rgb(120, 120, 120);
+}
+
+.bg-2 {
+  background-color: rgb(160, 160, 160);
+}
+
+.bg-1 {
+  background-color: rgb(200, 200, 200);
+}
