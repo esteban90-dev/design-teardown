@@ -31,11 +31,13 @@ body {
 
 .flex-row {
   display: flex;
+  width: 100%;
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .flex-col-60 {
@@ -172,4 +174,8 @@ body {
 
 .back {
   z-index: 0;
+}
+
+.width-100 {
+  width: 100;
 }
