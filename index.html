@@ -9,116 +9,228 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav-top flex-row space-around align-items-center bg-3">
-        <div class="logo bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <div class="nav-item bg-4"></div>
-        <input type="text" value="search" class="nav-search bg-4">
+    <header class="container-0">
+      <nav class="row space-around align-items-center py-20 bg-3">
+        <div class="col"><div class="logo bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><div class="nav-item bg-4"></div></div>
+        <div class="col"><input type="text" value="search" class="search bg-4"></div>
       </nav>
-      <nav class="nav-bottom flex-row space-around align-items-center bg-1">
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
-        <div class="nav-item bg-2"></div>
+      <nav class="row space-around align-items-center py-20 bg-1">
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
+        <div class="col"><div class="nav-item bg-2"></div></div>
       </nav>
     </header>
 
-    <main class="container">
-      <section class="flex-row">
-        <div class="flex-col-60">
-          <article>
-            <div class="flex-row align-items-start">
-              <div class="square-lg bg-4 mr-30"></div>
-              <h1 class="title-lg bg-5"></h1>
+    <main>
+      <section class="container-100">
+        <div class="row">
+          <div class="col-60">
+            <article>
+              <div class="row">
+                <div class="col">
+                  <div class="square-lg bg-4"></div>
+                </div>
+                <div class="gutter-5"></div>
+                <div class="col">
+                  <h1 class="text-large bg-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="bg-1">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum."
+                  </p>
+                </div>
+              </div>
+            </article>
+  
+            <article class="row mt-50">
+              <div class="col">
+                <div class="square-md bg-4"></div>
+              </div>
+              <div class="gutter-5"></div>
+              <div class="col">
+                <h2 class="bg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+              </div>
+            </article>
+  
+            <article class="row mt-50">
+              <div class="col">
+                <div class="square-md bg-4"></div>
+              </div>
+              <div class="gutter-5"></div>
+              <div class="col">
+                <h2 class="bg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+              </div>
+            </article>
+          </div>
+
+          <div class="gutter-10"></div>
+
+          <aside class="col-40 row-reverse align-items-center width-100">
+            <div class="square-lg bg-4 front"></div> 
+            <div class="bg-2 p-20 pb-100 offset-65 back">
+              <h2 class="bg-5 my-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+              <input type="text" class="search bg-4" value="your email">
             </div>
-            <p class="content bg-1"></p>
-          </article>
-          <article class="flex-row mt-50">
-            <div class="square-md bg-4 mr-30"></div>
-            <h2 class="title-md bg-5"></h2>
-          </article>
-          <article class="flex-row mt-50">
-            <div class="square-md bg-4 mr-30"></div>
-            <h2 class="title-md bg-5"></h2>
-          </article>
-        </div>
-        <div class="gutter"></div>
-        <aside class="flex-col-40 align-items-center">
-          <div class="square-lg bg-4 front"></div> 
-          <div class="box-lg bg-2 offset-65 back"></div>
-        </aside>
+          </aside>
+        </div>        
       </section>
       
-      <section class="flex-row mt-100">
-        <aside class="flex-col box-md bg-2 p-20">
-          <div class="title-lg bg-4"></div>
-          <p class="content bg-1 m-0"></p>
-          <div class="box-sm bg-4"></div>
-        </aside>
-        <div class="gutter"></div>
-        <aside class="flex-col box-md bg-2 p-20">
-          <div class="title-lg bg-4"></div>
-          <p class="content bg-1 m-0"></p>
-          <div class="box-sm bg-4"></div>
-        </aside>
-        <div class="gutter"></div>
-        <aside class="flex-col box-md bg-2 p-20">
-          <div class="title-lg bg-4"></div>
-          <p class="content bg-1 m-0"></p>
-          <div class="box-sm bg-4"></div>
-        </aside>
+      <section class="container-100 mt-100">
+        <div class="row">
+          <aside class="col width-100 bg-2 p-20">
+            <h2 class="bg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <p class="content bg-1 my-20">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            </p>
+            <h3 class="bg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+          </aside>
+          <div class="gutter-10"></div>
+          <aside class="col width-100 bg-2 p-20">
+            <h2 class=" bg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <p class="content bg-1 my-20">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            </p>
+            <h3 class="box-sm bg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+          </aside>
+          <div class="gutter-10"></div>
+          <aside class="col width-100 bg-2 p-20">
+            <h2 class="bg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <p class="content bg-1 my-20">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            </p>
+            <h3 class="bg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+          </aside>
+        </div>
       </section>
 
-      <section class="mt-100">
-        <div class="flex-row">
-          <article class="flex-row">
-            <div class="square-md bg-4 mr-30"></div>
-            <div class="flex-col">
-              <h2 class="title-md bg-5 mt-0"></h2>
-              <p class="content bg-1 m-0"></p>
+      <section class="container-100 mt-100">
+        <div class="row">
+          <article class="col width-100">
+            <div class="row width-100">
+              <div class="col">
+                <div class="square-md bg-4"></div>
+              </div>
+              <div class="gutter-5"></div>
+              <div class="col width-100">
+                <h2 class="bg-5 mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p class="bg-1 m-0">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                  culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>
             </div>
           </article>
-          <div class="gutter"></div>
-          <article class="flex-row">
-            <div class="square-md bg-4 mr-30"></div>
-            <div class="flex-col">
-              <h2 class="title-md bg-5 mt-0"></h2>
-              <p class="content bg-1 m-0"></p>
+
+          <div class="gutter-10"></div>
+
+          <article class="col width-100">
+            <div class="row width-100">
+              <div class="col">
+                <div class="square-md bg-4"></div>
+              </div>
+              <div class="gutter-5"></div>
+              <div class="col width-100">
+                <h2 class="bg-5 mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p class="bg-1 m-0">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                  culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>
             </div>
           </article>
         </div>
-        <div class="flex-row mt-100">
-          <article class="flex-row">
-            <div class="square-md bg-4 mr-30"></div>
-            <div class="flex-col">
-              <h2 class="title-md bg-5 mt-0"></h2>
-              <p class="content bg-1 m-0"></p>
+        
+        <div class="row mt-100">
+          <article class="col width-100">
+            <div class="row width-100">
+              <div class="col">
+                <div class="square-md bg-4"></div>
+              </div>
+              <div class="gutter-5"></div>
+              <div class="col width-100">
+                <h2 class="bg-5 mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p class="bg-1 m-0">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                  culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>
             </div>
           </article>
-          <div class="gutter"></div>
-          <article class="flex-row">
-            <div class="square-md bg-4 mr-30"></div>
-            <div class="flex-col">
-              <h2 class="title-md bg-5 mt-0"></h2>
-              <p class="content bg-1 m-0"></p>
+
+          <div class="gutter-10"></div>
+
+          <article class="col width-100">
+            <div class="row width-100">
+              <div class="col">
+                <div class="square-md bg-4"></div>
+              </div>
+              <div class="gutter-5"></div>
+              <div class="col width-100">
+                <h2 class="bg-5 mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p class="bg-1 m-0">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                  culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>
             </div>
           </article>
         </div>
@@ -152,20 +264,15 @@
       <aside>
         smashing job board
       </aside>
-    </main>
 
-    <main>
-      main 2
       <article>
         booster your skills online
       </article>
       <article>
         person of the week
       </article>
-    </main>
+    
 
-    <main>
-      main 3
       <article>
         12th article
       </article>
@@ -178,6 +285,7 @@
       <article>
         15th article
       </article>
+    
     </main>
 
     <footer>
