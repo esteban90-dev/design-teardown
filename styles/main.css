@@ -39,6 +39,10 @@ h1, h2, h3 {
   width: 10%;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .justify-content-center {
   justify-content: center;
 }
@@ -144,6 +148,10 @@ h1, h2, h3 {
   margin: 0px 0px 0px 0px;
 }
 
+.m-5 {
+  margin: 5px 5px 5px 5px;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -154,6 +162,10 @@ h1, h2, h3 {
 
 .mb-100 {
   margin-bottom: 100px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mt-50 {
@@ -200,6 +212,11 @@ h1, h2, h3 {
 .py-100 {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.py-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .p-20 {
