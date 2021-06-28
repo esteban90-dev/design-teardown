@@ -61,7 +61,15 @@ h1, h2, h3 {
 
 .container-100 {
   margin: 100px auto;
-  width: 80%;
+  max-width: 80%;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.overflow-scroll {
+  overflow: scroll;
 }
 
 
@@ -182,8 +190,21 @@ h1, h2, h3 {
   padding: 20px 20px 20px 20px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.offset-35 {
+  position: relative;
+  top: -35px;
 }
 
 .offset-65 {
@@ -197,6 +218,10 @@ h1, h2, h3 {
 
 .back {
   z-index: 0;
+}
+
+.fix-width-400 {
+  width: 400px;
 }
 
 .width-100 {
