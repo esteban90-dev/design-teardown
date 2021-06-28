@@ -1,12 +1,16 @@
 /*---------------------GENERAL--------------------*/
 body {
   margin: 0px 0px 0px 0px;
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 h1, h2, h3 {
   color: white;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: 'Fredoka One', cursive;
 }
 
 
