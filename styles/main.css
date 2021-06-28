@@ -160,6 +160,11 @@ h1, h2, h3 {
   margin-top: 100px;
 }
 
+.my-200 {
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
 .mr-30 {
   margin-right: 30px;
 }
